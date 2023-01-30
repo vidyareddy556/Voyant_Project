@@ -6,7 +6,7 @@ Feature: Login to Voyant Application
 
   @ValidCredentials
   Scenario: Login with valid credentials
-    When User enters username as "voyant-exercise" and password as "password100"
+    When User enters username as "voyant-exercise" and password as "usefulpassword"
     Then User should be able to login sucessfully
 
   @ignore
